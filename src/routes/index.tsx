@@ -9,6 +9,7 @@ import AuthConnection from '../screens/Guest/Auth/Connection';
 import stylesMain from '../styles/main.tsx';
 import {IconButton} from 'react-native-paper';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
+import AuthRegistration from "../screens/Guest/Auth/Registration";
 
 type RootStackParamList = {
   Home: undefined;
@@ -33,6 +34,7 @@ const Routes = () => (
       options={{title: 'Accueil'}}
     />
     <Stack.Screen name="AuthConnection" component={AuthConnection} />
+    <Stack.Screen name="AuthRegistration" component={AuthRegistration} />
   </Stack.Navigator>
 );
 

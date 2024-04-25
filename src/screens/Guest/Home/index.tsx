@@ -35,7 +35,7 @@ const HomeGuest: React.FC<HomeGuestProps> = ({navigation}) => {
               <Text style={stylesMain.AuthFormButtonText}>Se connecter</Text>
             </Pressable>
             <Pressable
-              onPress={() => navigation.navigate('AuthConnection')}
+              onPress={() => navigation.navigate('AuthRegistration')}
               style={stylesMain.AuthFormButton}>
               <Text style={stylesMain.AuthFormButtonText}>S'inscrire</Text>
             </Pressable>
